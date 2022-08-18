@@ -1,4 +1,4 @@
-# cookieStealer
+# Password and Cookie Stealer
 
 Change ur webhook URL in code or change writing method if u want.
 
