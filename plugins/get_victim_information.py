@@ -11,10 +11,10 @@ load_dotenv(dotenv_path=dotenv_path)
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 windows_enviroment={
-    'appLocal':'LOCALAPPDATA',
-    'appRoaming':'APPDATA',
+    'app_local':'LOCALAPPDATA',
+    'app_roaming':'APPDATA',
     'computer_name':'COMPUTERNAME',
-    'userPath':'HOMEPATH',
+    'user_path':'HOMEPATH',
     'username':'USERNAME'
 }
 
