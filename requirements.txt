@@ -1,0 +1,10 @@
+wheel
+getmac
+requests
+pycrypto
+pypiwin32
+setuptools
+pycryptodome
+python-dotenv
+
+#@guthmaer
